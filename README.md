@@ -4,7 +4,7 @@
 
 ### Utiliser cette commande en se plaçant dans un dossier
 ```bash
-https://github.com/VallienneDiane/Validation_Laravel.git
+https://github.com/Yashoo69/BD_Projet.git
 ```
 ### Dans ce dossier réinstaller les dépendances :
 ```bash

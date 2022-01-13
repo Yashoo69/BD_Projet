@@ -63,7 +63,6 @@ Ces derniers pourront bien entendu avoir créé plusieurs personnages, alors qu'
 Le principe de l'application est de pouvoir réaliser le CRUD des personnages ET des dessinateurs, le tout dans un environnement agréable à utiliser.
 Bien entendu, vous mettrez en place les migrations et seeder nécessaires au bon lancement de l'application, ainsi qu'un readme expliquant les étapes pour y arriver.
 
-Cette validation est individuelle, et bien que je ne vous empêche pas de vous inspirer de ce que nous avons déjà fait, je ne veux pas de copier/coller bête et méchant.
 
 Les critères principaux de notation seront :
 - fonctionnalité et propreté du code

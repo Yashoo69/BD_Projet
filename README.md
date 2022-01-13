@@ -46,7 +46,7 @@ php artisan serve
 ## L'application :
 
 ### Le thème de l'application est simple : les personnages de bandes dessinés.
-Ces personnages devront avoir comme caractéristiques, à minima :
+Les personnages auront comme caractéristiques, à minima, car l'application sera ammené a évoluer :
 - un nom 
 - une année de création 
 - un nom de bd affilié
@@ -60,8 +60,8 @@ Ces artistes auront, eux aussi, à minima :
 
 Ces derniers pourront bien entendu avoir créé plusieurs personnages, alors qu'on considèrera que chaque personnage n'a qu'un seul dessinateur.
 
-Le principe de l'application est de pouvoir réaliser le CRUD des personnages ET des dessinateurs, le tout dans un environnement agréable à utiliser.
-Bien entendu, vous mettrez en place les migrations et seeder nécessaires au bon lancement de l'application, ainsi qu'un readme expliquant les étapes pour y arriver.
+Le principe de cette l'application est de pouvoir réaliser le CRUD des personnages ET des dessinateurs, le tout dans un environnement agréable à utiliser.
+Bien entendu, vous mettrez en place les migrations et seeder nécessaires au bon lancement de l'application.
 
 
 Les critères principaux de notation seront :

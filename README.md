@@ -43,7 +43,7 @@ php artisan serve
 ```
 
 
-## Consignes de la Validation
+## L'application :
 
 ### Le thème de l'application est simple : les personnages de bandes dessinés.
 Ces personnages devront avoir comme caractéristiques, à minima :

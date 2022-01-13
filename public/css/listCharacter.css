@@ -1,0 +1,58 @@
+table {
+    border: 2px solid rgb(20, 220, 255);
+    text-align: center;
+    background-color: rgba(26, 24, 23, 0.877);
+    width: 70%;
+    color: white;
+}
+
+table a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 19px;
+}
+
+td {
+    border-bottom: 1px solid rgb(12, 12, 12);
+    padding: 12px;
+}
+
+#tabTitle {
+    color: rgb(20, 220, 255);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tabLine:hover {
+    color: rgb(26, 221, 235);
+    transform: scale(1.1);
+}
+
+#delete {
+    width: 50px;
+    background-color: rgb(7, 100, 91);
+    color: white;
+    font-size: 20px;
+    padding: 2px;
+}
+
+#delete:hover {
+    background-color: rgb(250, 41, 41);
+    color: rgb(10, 9, 9);
+}
+
+#update {
+    width: 50px;
+    text-align: center;
+    color: white;
+    background-color: rgb(7, 100, 91);
+    font-size: 20px;
+    padding: 2px;
+}
+
+#update:hover {
+    background-color: rgb(34, 243, 69);
+    color: rgb(12, 11, 11);
+}

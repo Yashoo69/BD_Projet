@@ -21,16 +21,16 @@ Route::get('/', [NavController::class, 'home']);
 Route::get('listCharacter', [NavController::class, 'listCharacter']);
 Route::get('characterDetail/{id}', [NavController::class, 'characterDetail']); 
 Route::get('addCharacter', [NavController::class, 'addCharacter'])->middleware('isLoggedIn');
+Route::get('updateCharacter/{id}', [NavController::class, 'updateCharacter'])->middleware('isLoggedIn');
 Route::post('addCharacterBdd', [ActionController::class, 'addCharacterBdd'])->middleware('isLoggedIn');
-Route::post('updateCharacter', [NavController::class, 'updateCharacter'])->middleware('isLoggedIn');
 Route::post('editCharacter', [ActionController::class, 'editCharacter'])->middleware('isLoggedIn');
 Route::post('deleteCharacter', [ActionController::class, 'deleteCharacter'])->middleware('isLoggedIn');
 
 Route::get('listDrawer', [NavController::class, 'listDrawer']);
 Route::get('drawerDetail/{id}', [NavController::class, 'drawerDetail']); 
 Route::get('addDrawer', [NavController::class, 'addDrawer'])->middleware('isLoggedIn');
+Route::get('updateDrawer/{id}', [NavController::class, 'updateDrawer'])->middleware('isLoggedIn');
 Route::post('addDrawerBdd', [ActionController::class, 'addDrawerBdd'])->middleware('isLoggedIn');
-Route::post('updateDrawer', [NavController::class, 'updateDrawer'])->middleware('isLoggedIn');
 Route::post('editDrawer', [ActionController::class, 'editDrawer'])->middleware('isLoggedIn');
 Route::post('deleteDrawer', [ActionController::class, 'deleteDrawer'])->middleware('isLoggedIn');
 

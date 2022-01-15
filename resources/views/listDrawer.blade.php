@@ -19,6 +19,10 @@
     <tbody>
         @foreach ($drawers as $drawer)
         <tr>
+                    @if(Session::has('fail'))
+                        <div class="alert alert-danger">{{Session::get('fail')}}</div>
+                    @endif
+
             <td><a class="tabLine" href="drawerDetail/{{ $drawer->id }}"> {{ $drawer->name }}</a></td>
             <td>{{ $drawer->birth_year }}</td>
             <td>{{ $drawer->nationality }}</td>
@@ -30,11 +34,8 @@
                 </form>
             </td>
             <td>
-                <form action="updateDrawer" method="POST">
-                    @csrf
-                    <input type="hidden" name="id" value="{{ $drawer->id }}">
-                    <input type="submit" id="update" value="MAJ"> 
-                </form>
+                <a href="updateDrawer/{{ $drawer->id }}"><button>MAJ</button></a>
+                @csrf
             </td>
         </tr>
         @endforeach

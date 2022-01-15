@@ -14,7 +14,7 @@
     <div>
         <p>Nom de la BD : {{ $character->comic_name }} </p>
     </div>
-    <div>
+    {{-- <div>
         <p>Dessinateur : {{ $character->drawer->name }} </p>
-    </div>
+    </div> --}}
 @endsection

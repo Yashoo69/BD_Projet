@@ -14,10 +14,12 @@ class CreateDrawersTable extends Migration
     public function up()
     {
         Schema::create('drawers', function (Blueprint $table) {
-            $table->id();
-            $table->string('name');
+            $table->id('id');
+            $table->string('name')->unique();
             $table->integer('birth_year');
             $table->string('nationality');
+            $table->unsignedBigInteger('users_id');
+            $table->foreign('users_id')->references('id')->on('users');
             $table->timestamps();
         });
     }

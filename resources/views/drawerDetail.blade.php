@@ -14,4 +14,6 @@
     <div>
         <p>Nationalité : {{ $drawer->nationality }} </p>
     </div>
+
+   
 @endsection

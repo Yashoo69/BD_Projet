@@ -20,14 +20,7 @@
         <label for="comic_name">Nom de la BD : </label>
         <input type="text" name="comic_name" id="comic_name" value="Lanfeust de Troy" required>
     </div>
-    <div class="form">
-        <label for="drawer">Dessinateur : </label>
-        <select type="text" name="drawer_id" id="drawer" required>
-            @foreach ($drawers as $drawer)
-                <option value="{{ $drawer->id }}">{{ $drawer->name }}</option> 
-            @endforeach
-        </select>
-    </div>  
+    
     <div class="form">
         <button id="submit" name="button">Ajouter</button>
     </div>

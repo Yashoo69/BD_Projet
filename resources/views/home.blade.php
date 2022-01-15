@@ -7,5 +7,8 @@
 @section('content')
 
 <h2> " La bande dessinée et ses personnages " </h2>
-
+{{-- 
+<div>
+    {{$userId}}
+</div> --}}
 @endsection

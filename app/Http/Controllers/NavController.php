@@ -6,6 +6,9 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Models\Character;
 use App\Models\Drawer;
+use Illuminate\Support\Facades\Session;
+use App\Models\User;
+use Illuminate\Support\Facades\Auth;
 
 class NavController extends Controller
 {
@@ -32,9 +35,9 @@ class NavController extends Controller
         return view('addCharacter', ['drawers' => $drawers]);
     }
 
-    public function updateCharacter(Request $request)
+    public function updateCharacter($id)
     {
-        $character = Character::findOrfail($request->id);
+        $character = Character::findOrfail($id);
         $drawers = Drawer::all()->sortBy('name');
         return view('updateCharacter', ['character' => $character, 'drawers' => $drawers]);
     }
@@ -46,6 +49,7 @@ class NavController extends Controller
     {   
         $drawers = Drawer::all();
         return view('listDrawer', ['drawers' => $drawers]); 
+        
     }
 
     public function drawerDetail($id)
@@ -60,9 +64,11 @@ class NavController extends Controller
         return view('addDrawer', ['drawers' => $drawers]);
     }
 
-    public function updateDrawer(Request $request)
+    public function updateDrawer($id)
     {
-        $drawer = Drawer::findOrfail($request->id);
+        $drawer = Drawer::findOrfail($id);
         return view('updateDrawer', ['drawer' => $drawer]);
     }
 }
+
+

@@ -50,7 +50,6 @@ Les personnages auront comme caractéristiques, à minima, car l'application ser
 - un nom 
 - une année de création 
 - un nom de bd affilié
-- un dessinateur
 
 Les dessinateurs seront quand eux gérés dans une 2nd table. Pas besoin de mettre en place de table intermédiaire, une simple clé étrangère suffira.
 Ces artistes auront, eux aussi, à minima :

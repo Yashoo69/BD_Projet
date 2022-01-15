@@ -31,10 +31,17 @@
                 <li><a href="/addCharacter">Ajouter un Personnage</a></li>
                 <li><a href="/addDrawer">Ajouter un Déssinateur</a></li>
   
-       
-                <li><a href="/login">Se connecter</a></li>
+                {{-- <li><a href="/login">Se connecter</a></li> --}}
             
                 <li><a href="/dashboard">Mon Profil</a></li>
+
+                @if(Session::has('success'))
+                    <li><a href="/dashboard">Mon Profil</a></li>
+                @else
+                {{-- @if(Session::has('fail')) --}}
+                <li><a href="/login">Se connecter</a></li>
+                {{-- <div class="alert alert-danger">{{Session::get('fail')}}</div> --}}
+                @endif
            
   
                 {{-- <li><a href="/registration">S'inscrire</a></li> --}}

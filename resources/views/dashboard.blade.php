@@ -30,7 +30,7 @@
                         <tr>
                             <td>{{$data->name}}</td>
                             <td>{{$data->email}}</td>
-                            <td><a href="logout">Se déconnecter </a></td>
+                            <td><a href="logout">Déconnecter </a></td>
                         </tr>
                     </tbody>
                 </table>

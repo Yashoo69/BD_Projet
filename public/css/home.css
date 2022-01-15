@@ -1,8 +1,10 @@
 main {
     height: 100%;
-    color: red;
+    color: black;
+    font-size: xx-large;
+    font-weight: 600;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-image: url("https://images.unsplash.com/photo-1593345216060-fdc5d77ba65f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80");
+    background-image: url("https://st2.depositphotos.com/6916984/11842/v/950/depositphotos_118425176-stock-illustration-comics-book-background.jpg");
     font-style: italic;
     background-position: center;
     background-size: cover;

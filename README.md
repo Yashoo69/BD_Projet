@@ -51,7 +51,6 @@ Les personnages auront comme caractéristiques, à minima, car l'application ser
 - une année de création 
 - un nom de bd affilié
 
-Les dessinateurs seront quand eux gérés dans une 2nd table. Pas besoin de mettre en place de table intermédiaire, une simple clé étrangère suffira.
 Ces artistes auront, eux aussi, à minima :
 - un nom
 - une année de naissance
@@ -59,11 +58,5 @@ Ces artistes auront, eux aussi, à minima :
 
 Ces derniers pourront bien entendu avoir créé plusieurs personnages, alors qu'on considèrera que chaque personnage n'a qu'un seul dessinateur.
 
-Le principe de cette l'application est de pouvoir réaliser le CRUD des personnages ET des dessinateurs, le tout dans un environnement agréable à utiliser.
-Bien entendu, vous mettrez en place les migrations et seeder nécessaires au bon lancement de l'application.
+Le principe de cette application est de pouvoir trouver des informations sur des personnages ET des dessinateurs de bande-dessinée et d'en apporter si le besoin y est, le tout dans un environnement agréable à utiliser.
 
-
-Les critères principaux de notation seront :
-- fonctionnalité et propreté du code
-- respect des nomenclatures
-- pas de franglais

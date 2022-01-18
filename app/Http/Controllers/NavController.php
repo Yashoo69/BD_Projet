@@ -6,9 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Models\Character;
 use App\Models\Drawer;
-use Illuminate\Support\Facades\Session;
-use App\Models\User;
-use Illuminate\Support\Facades\Auth;
+
 
 class NavController extends Controller
 {

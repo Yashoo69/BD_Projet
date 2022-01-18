@@ -11,6 +11,7 @@ class CreateDrawersTable extends Migration
      *
      * @return void
      */
+    
     public function up()
     {
         Schema::create('drawers', function (Blueprint $table) {

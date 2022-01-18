@@ -5,6 +5,7 @@
 @section('title', 'Description')
 
 @section('content')
+
     <div>
         <p>Nom : {{ $drawer->name}} </p>
     </div>
@@ -15,5 +16,4 @@
         <p>Nationalité : {{ $drawer->nationality }} </p>
     </div>
 
-   
 @endsection

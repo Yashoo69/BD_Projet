@@ -6,11 +6,25 @@ table {
     color: white;
 }
 
+main {
+    padding-top: 50px;
+}
+
 table a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 19px;
+}
+
+#submit {
+    width: 50px;
+    height: 30px;
+    background-color: rgb(7, 100, 91);
+    border: 1px solid rgb(22, 21, 21);
+    color: white;
+    font-size: 16px;
+    box-shadow: aqua;
 }
 
 td {

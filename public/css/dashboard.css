@@ -1,0 +1,24 @@
+.row {
+    
+    justify-content: center;
+  
+}
+
+main {
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/001/195/542/non_2x/bubbles-comic-style-png.png');
+
+}
+
+.bulle {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+label {
+    color: white;
+}

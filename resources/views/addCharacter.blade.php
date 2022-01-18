@@ -4,7 +4,7 @@
 
 @section('title', 'Ajouter un personnage')
 
-@section('content')
+@section('content') 
 
 <form id="addCharacter" action="/addCharacterBdd" method="POST" class="form"> 
     @csrf 
@@ -25,4 +25,5 @@
         <button id="submit" name="button">Ajouter</button>
     </div>
 </form>
+
 @endsection

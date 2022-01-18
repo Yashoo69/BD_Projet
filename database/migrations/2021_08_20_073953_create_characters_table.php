@@ -11,6 +11,7 @@ class CreateCharactersTable extends Migration
      *
      * @return void
      */
+    
     public function up()
     {
         Schema::create('characters', function (Blueprint $table) {

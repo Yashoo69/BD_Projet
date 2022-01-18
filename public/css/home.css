@@ -1,12 +1,17 @@
 main {
     height: 100%;
-    color: black;
-    font-size: xx-large;
-    font-weight: 600;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-image: url("https://st2.depositphotos.com/6916984/11842/v/950/depositphotos_118425176-stock-illustration-comics-book-background.jpg");
-    font-style: italic;
+    background-image: url("https://image.freepik.com/free-vector/abstract-comic-background-design-vector_1055-5076.jpg");
     background-position: center;
     background-size: cover;
     justify-content: center;
+    z-index: 1;
+    padding-top: 50px;
+}
+
+
+h2 {
+    color: blue;
+    font-size: 35px;
+    font-weight: 900;
+    font-family: cursive;
 }

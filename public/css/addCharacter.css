@@ -24,6 +24,10 @@ input {
     padding: 6px;
 }
 
+main {
+    padding-top: 50px;
+}
+
 #submit {
     width: 110px;
     height: 50px;

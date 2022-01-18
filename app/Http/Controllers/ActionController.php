@@ -22,8 +22,10 @@ class ActionController extends Controller
         $character->creation_year = $request->creation_year;
         $character->comic_name = $request->comic_name;
         $character->save();
+
         return redirect('listCharacter');
     }
+
 
     public function editCharacter(Request $request)
     {
@@ -35,6 +37,7 @@ class ActionController extends Controller
             $character->creation_year = $request->creation_year;
             $character->comic_name = $request->comic_name;
             $character->save();
+
             return redirect('listCharacter');
         }else {
             return back()->withInput();
@@ -44,12 +47,16 @@ class ActionController extends Controller
     public function deleteCharacter(Request $request)
     {   
         $connectedUserId = Session::get('loginId');
+
+
         $character = Character::findOrFail($request->id);
+
         if ($character->users_id === $connectedUserId) {
+            
             $character->delete();
             return redirect('listCharacter');
         }else {
-            return back()->with('fail', "Une erreur s'est produite !");
+            return back()->with('fail', " Vous n'avez pas les droits requis ! ");
         }
     }
 
@@ -79,11 +86,9 @@ class ActionController extends Controller
                 $drawer->nationality = $request->nationality;
                 $drawer->save();
 
-            return redirect('listDrawer');
-
+                return redirect('listDrawer');
             } else {
-                
-                return back()->with('fail', "Une erreur s'est produite !");
+                return back()->with('fail', " Vous n'avez pas les droits requis ! ");
             }
             
     }
@@ -93,12 +98,13 @@ class ActionController extends Controller
         
         $connectedUserId = Session::get('loginId');
         $drawer = Drawer::findOrFail($request->id);
-            if ($drawer->users_id === $connectedUserId) {
-                $drawer->delete();
-                return redirect('listDrawer');
-            } else {
-            return back()->with('fail', "Une erreur s'est produite !");
-            }
+
+        if ($drawer->users_id === $connectedUserId) {
+            $drawer->delete();
+            return redirect('listDrawer');
+        } else {
+            return back()->with('fail', " Vous n'avez pas les droits requis ! ");
+        }
 
     }
 }

@@ -26,4 +26,5 @@
         <button id="submit" name="button">Ajouter</button>
     </div>
   </form>
+  
 @endsection

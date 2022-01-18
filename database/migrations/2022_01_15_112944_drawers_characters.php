@@ -11,6 +11,7 @@ class DrawersCharacters extends Migration
      *
      * @return void
      */
+    
     public function up()
     {
         Schema::create('drawers_characters', function (Blueprint $table) {

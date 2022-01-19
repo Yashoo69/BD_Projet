@@ -10,17 +10,18 @@ main {
 #addCharacter, #addDrawer {
     border: 2px solid goldenrod;
     background-color: rgba(20, 19, 18, 0.795);
-    height: 60%;
-    width: 30%;
-    padding: 15px;
+    height: 400px;
+    width: 400px;
     border-radius: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 .form {
     display: flex;
     flex-direction: column;
     font-size: 22px;
-    padding: 20px;
+    padding: 1.2rem;
 }
 
 input {
@@ -50,7 +51,6 @@ main {
 }
 
 #submit:hover {
-    /* background-color: rgb(8, 30, 153); */
     color: #0d6efd;
 }
 

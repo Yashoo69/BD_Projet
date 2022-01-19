@@ -1,17 +1,19 @@
 main {
     height: 100%;
-    background-image: url("https://image.freepik.com/free-vector/abstract-comic-background-design-vector_1055-5076.jpg");
+    background-image: url("https://cdn.wallpapersafari.com/88/40/Z19rY3.jpg");
     background-position: center;
-    background-size: cover;
-    justify-content: center;
-    z-index: 1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #f8d602;
     padding-top: 50px;
+    z-index: 1;
 }
 
 
 h2 {
-    color: blue;
-    font-size: 35px;
+    text-transform:uppercase;
+    color: white;
+    font-size: 45px;
     font-weight: 900;
-    font-family: cursive;
+    font-family:fantasy
 }

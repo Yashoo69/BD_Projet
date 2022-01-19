@@ -6,13 +6,13 @@
 
 @section('content')
 
-    <div>
+    <div class="character_details">
         <p>Nom : {{ $drawer->name}} </p>
     </div>
-    <div>
+    <div class="character_details">
         <p>Année de naissance : {{ $drawer->birth_year }} </p>
     </div>
-    <div>
+    <div class="character_details">
         <p>Nationalité : {{ $drawer->nationality }} </p>
     </div>
 

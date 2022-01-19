@@ -1,24 +1,53 @@
-.row {
-    
-    justify-content: center;
-  
-}
-
-main {
-    background-position: bottom;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url('https://static.vecteezy.com/system/resources/previews/001/195/542/non_2x/bubbles-comic-style-png.png');
-
-}
-
 .bulle {
     width: 100%;
-    height: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    margin-top: 150px;
 }
 
 label {
     color: white;
+}
+
+h4 {
+    font-size: xx-large;
+    text-align: center;
+}
+
+tr {
+    text-align: center;
+    font-size: large;
+    text-transform:uppercase
+}
+
+thead tr {
+    color: #daa520;
+}
+
+.container {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logOut_button {
+    border-radius: 99px;
+    height: 48px;
+    width: 30%;
+    border-color: black;
+    background-color: black;
+}
+
+.a_log {
+    color: #daa520;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
 }

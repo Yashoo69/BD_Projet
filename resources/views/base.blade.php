@@ -9,11 +9,12 @@
 </head>
 <body>
     <header>
+    
         <nav class="navbar">
-        
-        <div class="brand-title">
-            <a href="/"><img src="https://static.vecteezy.com/system/resources/previews/001/195/542/non_2x/bubbles-comic-style-png.png" class="img" alt="" srcset=""></a>
-        </div>
+
+            <div class="brand-title">
+                <a href="/"><img src="./img/Marvel.png" style="height: 70px" alt=""></a>
+            </div>
 
         <!-- Hamburger menu -->
         <a href="#" class="toggle-button">

@@ -20,7 +20,7 @@
         <label for="nationality">Nationalité : </label>
         <input type="text" name="nationality" id="nationality" value="Belge" required>
     </div>
-    <div class="form">
+    <div class="form_button">
         <button id="submit" name="button">Ajouter</button>
     </div>
 </form>

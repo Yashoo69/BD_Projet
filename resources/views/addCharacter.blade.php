@@ -21,7 +21,7 @@
         <input type="text" name="comic_name" id="comic_name" value="Lanfeust de Troy" required>
     </div>
     
-    <div class="form">
+    <div class="form_button">
         <button id="submit" name="button">Ajouter</button>
     </div>
 </form>

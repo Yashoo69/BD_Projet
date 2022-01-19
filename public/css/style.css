@@ -9,10 +9,26 @@ h2 {
     font-size: 2rem;
 }
 
+h3 {
+    font-size: 1.4rem;
+}
+
 span.connect {
     color: goldenrod;
     font-style: normal;
     font-size: larger;
+}
+
+.title-top {
+    background-color: rgb(78, 78, 78);
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.planet {
+    color: white;
+    text-decoration: none;
 }
 
 body {
@@ -50,13 +66,15 @@ footer {
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background-color: #090001;
     color: white;
     padding: 1px 30px;
-    border-bottom: 2px solid #fff;
+    border-bottom: 3px solid #fff;
 }
 
 .brand-title {
+    display: flex;
+    height: 70px;
     font-size: 2rem;
     margin: .5rem;
     font-family: 'Roboto Condensed', sans-serif;
@@ -125,7 +143,7 @@ img.img {
 /* Le rôle de la requête multimédia est que, si certaines conditions 
 sont remplies, exécutez le code de l'intérieur, et sinon, ne le faites pas. */
 
-@media (max-width: 865px) {
+@media (max-width: 1000px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;

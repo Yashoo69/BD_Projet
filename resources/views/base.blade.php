@@ -37,7 +37,7 @@
                 @endif
                 
                 @if(!Session()->has('loginId'))
-                    <li><a href="/login"><span class="connect">Se connecter</span></a></li>
+                    <li><a href="/login"><span class="connect">Connexion</span></a></li>
                 @endif  
                 
                 {{-- <li><a href="/registration">S'inscrire</a></li> --}}

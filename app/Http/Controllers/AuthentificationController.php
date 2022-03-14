@@ -16,6 +16,7 @@ class AuthentificationController extends Controller
     public function registration(){
         return view("authentification.registration");
     }
+    
     public function registerUser(Request $request){
         $request->validate([
             'name'=>'required',
@@ -29,10 +30,18 @@ class AuthentificationController extends Controller
         $user->password = Hash::make($request->password);
         $res = $user->save();
         if($res){
-            return back()->with('success', 'Vous n’aurez jamais une deuxième chance de faire une bonne première impression'); 
+            return redirect('login')->with('success', 'Bienvenue ! Connecte toi'); 
+            // return back()->with('success', 'Vous n’aurez jamais une deuxième chance de faire une bonne première impression'); 
+           
         }else{
             return back()->with('fail',"Quelque chose s'est mal passé... ");
-        }
+        }  
+    }
+
+    // public function
+
+    public function updateUser(Request $request) {
+        
     }
 
     public function loginUser(Request $request){

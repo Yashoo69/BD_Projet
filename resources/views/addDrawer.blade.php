@@ -10,15 +10,15 @@
     @csrf 
     <div class="form">
         <label for="name">Nom : </label>
-        <input type="text" name="name" id="name" value="George Rémi dit Hergé" required>
+        <input type="text" name="name" id="name" value="{{old('name')}}" required>
     </div>
     <div class="form">
         <label for="birth_year">Année de naissance : </label>
-        <input type="number" name="birth_year" id="birth_year" value="1907" required>
+        <input type="number" name="birth_year" id="birth_year" value="{{old('birth_year')}}" required>
     </div>
     <div class="form">
         <label for="nationality">Nationalité : </label>
-        <input type="text" name="nationality" id="nationality" value="Belge" required>
+        <input type="text" name="nationality" id="nationality" value="{{old('nationality')}}" required>
     </div>
     <div class="form_button">
         <button id="submit" name="button">Ajouter</button>

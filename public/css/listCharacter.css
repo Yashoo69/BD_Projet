@@ -2,7 +2,7 @@ table {
     border: 2px solid goldenrod;
     text-align: center;
     background-color: rgba(26, 24, 23, 0.877);
-    width: 70%;
+    width: 60%;
     color: white;
 }
 
@@ -77,4 +77,12 @@ td {
 #update:hover {
     background-color: rgb(34, 243, 69);
     color: rgb(12, 11, 11);
+}
+
+.autorized {
+    background-color: red;
+    color: white;
+    margin-bottom: 2%;
+    font-size: large;
+    font-weight: bold;
 }

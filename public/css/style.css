@@ -19,6 +19,10 @@ span.connect {
     font-size: larger;
 }
 
+span.menu_primary:hover {
+    color: goldenrod;
+}
+
 .title-top {
     background-color: rgb(78, 78, 78);
     text-decoration: none;
@@ -117,14 +121,9 @@ img.img {
     border-radius: 99px;
 }
 
-
-.navbar-links li a:hover {
-    background-color: cornflowerblue;
-}
-
 .toggle-button {
     position: absolute;
-    top: 2.6rem;
+    top: 2rem;
     right: 1rem;
     display: none;
     flex-direction: column;

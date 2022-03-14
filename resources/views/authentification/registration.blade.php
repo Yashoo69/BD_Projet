@@ -42,7 +42,7 @@
                         <button class="btn btn-block btn-primary" type="submit">Enregistrer</button>
                     </div>
                     <br>
-                    <a href="login"> Deja Inscrit !! Se connecter ici  </a>
+                    {{-- <a href="login"> Deja Inscrit !! Se connecter ici  </a> --}}
 
                 </form>
             </div>

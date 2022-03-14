@@ -15,21 +15,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-offset-4" style="margin-top: 20px;">
-                    <h4>Welcome to Dashboard</h4>
+                    <h4>Bienvenue sur ton Profil</h4>
                     <hr>
                     <table class="table">
                         <thead>
-
                             <th>Name</th>
                             <th>Email</th>
-            
                         </thead>
                         <tbody>
                             <tr>
-
                                 <td>{{$data->name}}</td>
                                 <td>{{$data->email}}</td>
-                                
                             </tr>
                         </tbody>
                     </table>
